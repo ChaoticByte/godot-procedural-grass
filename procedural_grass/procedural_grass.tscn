@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://dq4xt6tl25c4v"]
+
+[ext_resource type="Script" path="res://procedural_grass/procedural_grass.gd" id="2_e58by"]
+
+[node name="ProceduralGrass" type="MeshInstance3D"]
+script = ExtResource("2_e58by")
+color_base = Color(0.415686, 0.431373, 0.133333, 1)
+color_tip = Color(0.378045, 0.596905, 0.184511, 1)
